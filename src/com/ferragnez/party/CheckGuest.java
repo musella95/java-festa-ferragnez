@@ -30,7 +30,7 @@ public class CheckGuest {
 
      */
         int i = 0;
-        while (i < partyGuest.length) {
+        while (i < partyGuest.length && !found) {
             if (nameUser.equals(partyGuest[i])) {
                 found = true;
             }
